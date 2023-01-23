@@ -1,0 +1,15 @@
+i = []
+word = input("Enter a word: ")
+i.append(word)
+word2 = input("Enter a word: ")
+i.append(word2)
+word3 = input("Enter a word: ")
+i.append(word3)
+word4 = input("Enter a word: ")
+i.append(word4)
+word5 = input("Enter a word: ")
+i.append(word5)
+
+print("Words: ", i)
+String = ' '.join(i)
+print("Joined :", String)
